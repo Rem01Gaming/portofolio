@@ -149,7 +149,7 @@ fetch('https://api.github.com/users/Rem01Gaming')
     .then(data => {
         const createdAt = new Date(data.created_at);
         const experienceYears = new Date().getFullYear() - createdAt.getFullYear();
-        document.getElementById('experenceYear').innerText = experienceYears;
+        document.getElementById('experenceYear').innerText = experienceYears + '+';
     })
     .catch(error => {
         console.error('failed to fetch github account age:', error);
