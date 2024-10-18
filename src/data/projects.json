@@ -1,16 +1,44 @@
 [
     {
-        "id": "bilis-delivery",
+        "id": "okm",
+        "carouselImages": ["1.webp"],
+        "projectRepo": "https://github.com/Rem01Gaming/origami_kernel_manager",
+        "projectTitle": "Origami Kernel Manager",
+        "projectSlogan": "Yet another kernel manager",
+        "projectDescription": "Origami Kernel Manager is a set of utilities for power users to tune, adjust, and manage the kernel parameters through the command line interface (CLI), supporting Android Termux and Linux. It aims to deliver a comprehensive solution for enhancing device performance and customization by providing various settings for kernel fine-tuning.",
+
+        "projectTechnologies": [
+            {
+                "name": "Bash",
+                "icon": "bash"
+            },
+            {
+                "name": "SQLite",
+                "icon": "sqlite"
+            },
+            {
+                "name": "Termux",
+                "icon": "termux"
+            }
+        ]
+    },
+    {
+        "id": "encore-tweaks",
         "carouselImages": ["1.webp", "2.webp"],
-        "projectSite": "https://app.bilisdelivery.com/",
-        "projectTitle": "Bilis Delivery",
-        "projectSlogan": "Deliver Items at Your Doorstep",
-        "projectDescription": "Bilis Delivery is a logistics service that focuses on fast and efficient delivery of various items to your doorstep. This project is built with Laravel and Flutter, providing a web and android application for the logistics team, restaurant management, and for the customers. The system includes features such as real-time tracking, order management, and delivery status updates.",
+        "projectRepo": "https://github.com/Rem01Gaming/encore",
+        "projectSite": "https://rem01gaming.github.io/encore",
+        "projectTitle": "Encore Tweaks",
+        "projectSlogan": "Special performance module for youe device",
+        "projectDescription": "Encore Tweaks is a Magisk module designed to boost device performance while playing games but keeping battery life on normal usage.",
 
         "projectTechnologies": [
             {
-                "name": "JavaScript",
-                "icon": "javascript"
+                "name": "Bash",
+                "icon": "bash"
+            },
+            {
+                "name": "C",
+                "icon": "c"
             },
             {
                 "name": "HTML",
@@ -21,222 +49,69 @@
                 "icon": "css"
             },
             {
-                "name": "MySQL",
-                "icon": "mysql"
-            },
-            {
-                "name": "Flutter",
-                "icon": "flutter"
-            },
-            {
-                "name": "Dart",
-                "icon": "dart"
-            },
-            {
-                "name": "Firebase",
-                "icon": "firebase"
-            },
-            {
-                "name": "Laravel",
-                "icon": "laravel"
-            },
-            {
-                "name": "cPanel",
-                "icon": "cpanel"
-            }
-        ]
-    },
-    {
-        "id": "sentiai-sentiment-analysis",
-        "carouselImages": ["1.webp", "2.webp"],
-        "projectRepo": "https://github.com/dnachavez/fine-tuning-tinybert-for-sentiment-analysis",
-        "projectTitle": "SentiAI",
-        "projectSlogan": "TinyBERT for Sentiment Analysis",
-        "projectDescription": "A project developed as a final requirement for the completion of CS221, Algorithms and Complexity course subject, of second year BS Computer Science (BSCS) degree at the University of Southern Philippines Foundation (USPF). It is capable of analyzing and classifying the sentiment of text data into positive, negative, or neutral categories. The project includes scripts for training the model with a custom dataset, analyzing text inputs to determine sentiment, and utilities for preprocessing data and evaluating model performance, as well as a web application.",
-
-        "projectTechnologies": [
-            {
-                "name": "Python",
-                "icon": "python"
-            },
-            {
                 "name": "JavaScript",
                 "icon": "javascript"
             },
             {
-                "name": "HTML",
-                "icon": "html"
+                "name": "Tailwind CSS",
+                "icon": "tailwind"
             },
             {
-                "name": "CSS",
-                "icon": "css"
+                "name": "Magisk",
+                "icon": "magisk"
+            },
+            {
+                "name": "KernelSU",
+                "icon": "kernelsu"
             }
         ]
     },
     {
-        "id": "lyons-global",
-        "carouselImages": ["1.webp", "2.webp", "3.webp", "4.webp"],
-        "projectSite": "https://lyonsglobal.us/",
-        "projectTitle": "Lyons Global™",
-        "projectSlogan": "Lyons Global™ Website",
-        "projectDescription": "Lyons Global™ is the official website of Lyons Global™. The website is built with WordPress and features a custom theme, custom post types, and custom fields. Our team at Develop Kreativity redesigned their website using WordPress, creating a modern and user-friendly interface that showcases their expertise and services as a digital health solutions company.",
+        "id": "unshell",
+        "carouselImages": ["1.webp"],
+        "projectRepo": "https://github.com/Rem01Gaming/unshell",
+        "projectTitle": "Unshell",
+        "projectSlogan": "Effortlessly deobfuscate any shell scripts",
+        "projectDescription": "Unshell is shell script deobfuscator, capable to deobfuscate shell scripts back into source code even with heavenly and multi layered obfuscation. unshell will search for patterns on shell script, determine and deobfuscate accordingly.",
 
         "projectTechnologies": [
             {
-                "name": "WordPress",
-                "icon": "wordpress"
+                "name": "Bash",
+                "icon": "bash"
             }
         ]
     },
     {
-        "id": "iot-parking-system",
-        "carouselImages": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp"],
-        "projectRepo": "https://github.com/dnachavez/iotparkingsystem",
-        "projectTitle": "IoT Parking System",
-        "projectSlogan": "Arduino Uno R4 WiFi Parking System",
-        "projectDescription": "A project developed as a final requirement for the completion of the IT214, IS Innovation and New Technologies course subject, of second year BS Computer Science (BSCS) degree at the University of Southern Philippines Foundation (USPF). It aims to innovate the parking management of the university to solve the problem of managing parking spaces. The project's web interface is built with CodeIgniter 4 and uses Arduino Uno R4 WiFi hardware. The system delivers real-time information on available parking spaces and parking logs.",
+        "id": "mtkfest",
+        "carouselImages": ["1.webp"],
+        "projectRepo": "https://github.com/Rem01Gaming/mtkfest",
+        "projectTitle": "Mtkfest",
+        "projectSlogan": "Special performance module for Mediatek",
+        "projectDescription": "Mtkfest is the successor of Encore Tweaks, it's a Magisk module designed to boost device performance while playing games but keeping battery life on normal usage on Mediatek devices.",
 
         "projectTechnologies": [
             {
-                "name": "CodeIgniter",
-                "icon": "codeigniter"
+                "name": "Bash",
+                "icon": "bash"
             },
             {
-                "name": "JavaScript",
-                "icon": "javascript"
-            },
-            {
-                "name": "HTML",
-                "icon": "html"
-            },
-            {
-                "name": "CSS",
-                "icon": "css"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql"
-            },
-            {
-                "name": "cPanel",
-                "icon": "cpanel"
-            },
-            {
-                "name": "Arduino",
-                "icon": "arduino"
+                "name": "Magisk",
+                "icon": "magisk"
             }
         ]
     },
     {
-        "id": "lyons-global-lms",
-        "carouselImages": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp", "8.webp", "9.webp"],
-        "projectSite": "https://lms.lyonsglobal.us/",
-        "projectTitle": "Lyons Global™ LMS",
-        "projectSlogan": "Learning Management System",
-        "projectDescription": "The project is a complete redesign of Lyons Global™'s learning management system using WordPress. It supports various types of content delivery, including interactive modules, document-based resources, and video learning. A user registration and course access approval was added as well.",
+        "id": "liquid-kernel",
+        "carouselImages": ["1.webp"],
+        "projectRepo": "https://github.com/liquidprjkt/liquid_kernel_realme_even",
+        "projectTitle": "Liquid Kernel",
+        "projectSlogan": "Custom Kernel for Realme C25, C25s and Narzo 50A",
+        "projectDescription": "Custom Kernel for Realme C25, C25s and Narzo 50A (Realme even), focused on stability and power efficiency.",
 
         "projectTechnologies": [
             {
-                "name": "WordPress",
-                "icon": "wordpress"
-            }
-        ]
-    },
-    {
-        "id": "philippine-scripts-translator",
-        "carouselImages": ["1.webp", "2.webp", "3.webp"],
-        "projectRepo": "https://github.com/dnachavez/philippine-scripts-translator",
-        "projectSite": "https://philippine-scripts-translator.netlify.app/",
-        "projectTitle": "Philippine Scripts Translator",
-        "projectSlogan": "Text to Ancient Philippine Scripts",
-        "projectDescription": "Philippine Scripts Translator is a tool to translate modern Filipino texts into ancient Philippine scripts that are included in the unicode charts. The project is inspired by jennayey's Philippine Script Translator and uses Next.js for its front-end framework.",
-
-        "projectTechnologies": [
-            {
-                "name": "Next.js",
-                "icon": "nextjs"
-            },
-            {
-                "name": "Netlify",
-                "icon": "netlify"
-            }
-        ]
-    },
-    {
-        "id": "google-translation",
-        "carouselImages": ["1.webp", "2.webp", "3.webp", "4.webp"],
-        "projectRepo": "https://github.com/dnachavez/nextjs-gtranslation-app",
-        "projectSite": "https://gtranslation.netlify.app",
-        "projectTitle": "Google Translation",
-        "projectSlogan": "Translate with Google Translate",
-        "projectDescription": "GTranslate is a translation tool that supports several languages from Google Translate. The project uses Next.js for its front-end framework and the Google Translate API from Pawan.Krd for its back-end.",
-
-        "projectTechnologies": [
-            {
-                "name": "Next.js",
-                "icon": "nextjs"
-            },
-            {
-                "name": "Netlify",
-                "icon": "netlify"
-            }
-        ]
-    },
-    {
-        "id": "uspf-buddy",
-        "carouselImages": ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp", "8.webp"],
-        "projectTitle": "USPF Buddy",
-        "projectSlogan": "Conversational Interface Assistant",
-        "projectDescription": "A project developed as a final requirement for the completion of the CC122, Intermediate Programming course subject, of first year BS Computer Science (BSCS) degree at the University of Southern Philippines Foundation (USPF). It understands and responds to a wide range of inquiries using OpenAI's GPT-3.5-turbo model, DALL-E image generation, and custom commands to provide users with quick and easy access to a university-curated knowledgebase.",
-
-        "projectTechnologies": [
-            {
-                "name": "PHP",
-                "icon": "php"
-            },
-            {
-                "name": "JavaScript",
-                "icon": "javascript"
-            },
-            {
-                "name": "HTML",
-                "icon": "html"
-            },
-            {
-                "name": "CSS",
-                "icon": "css"
-            },
-            {
-                "name": "MySQL",
-                "icon": "mysql"
-            },
-            {
-                "name": "jQuery",
-                "icon": "jquery"
-            },
-            {
-                "name": "cPanel",
-                "icon": "cpanel"
-            }
-        ]
-    },
-    {
-        "id": "auggie-gpt",
-        "carouselImages": ["1.webp", "2.webp", "3.webp", "4.webp"],
-        "projectRepo": "https://github.com/dnachavez/AuggieGPT",
-        "projectSite": "https://auggiegpt.streamlit.app/",
-        "projectTitle": "AuggieGPT",
-        "projectSlogan": "GPT-powered Chatbot Assistant",
-        "projectDescription": "A proposed Streamlit chatbot assistant for the University of Southern Philippines Foundation (USPF) built using Python and OpenAI's GPT-3.5-turbo model. It is capable of understanding and responding to specific queries related to the university.",
-
-        "projectTechnologies": [
-            {
-                "name": "Python",
-                "icon": "python"
-            },
-            {
-                "name": "Streamlit",
-                "icon": "streamlit"
+                "name": "C",
+                "icon": "c"
             }
         ]
     }

@@ -1,11 +1,19 @@
 [
     {
-        "skillName": "PHP",
-        "skillPicture": "php.svg"
+        "skillName": "Kotlin",
+        "skillPicture": "kotlin.svg"
     },
     {
-        "skillName": "CodeIgniter",
-        "skillPicture": "codeigniter.svg"
+        "skillName": "Bash",
+        "skillPicture": "bash.svg"
+    },
+    {
+        "skillName": "C",
+        "skillPicture": "c.svg"
+    },
+    {
+        "skillName": "C#",
+        "skillPicture": "csharp.svg"
     },
     {
         "skillName": "Python",
@@ -24,16 +32,16 @@
         "skillPicture": "css.svg"
     },
     {
-        "skillName": "MySQL",
-        "skillPicture": "mysql.svg"
+        "skillName": "SQLite",
+        "skillPicture": "sqlite.svg"
     },
     {
         "skillName": "Bootstrap",
         "skillPicture": "bootstrap.svg"
     },
     {
-        "skillName": "jQuery",
-        "skillPicture": "jquery.svg"
+        "skillName": "Tailwind CSS",
+        "skillPicture": "tailwind.svg"
     },
     {
         "skillName": "Git",
@@ -48,45 +56,36 @@
         "skillPicture": "node.svg"
     },
     {
-        "skillName": "Next.js",
-        "skillPicture": "nextjs.svg"
-    },
-    
-    {
-        "skillName": "WordPress",
-        "skillPicture": "wordpress.svg"
+        "skillName": "Android Studio",
+        "skillPicture": "android-studio.svg"
     },
     {
         "skillName": "VS Code",
         "skillPicture": "vscode.svg"
     },
     {
-        "skillName": "AWS",
-        "skillPicture": "aws.svg"
+        "skillName": "Visual Studio",
+        "skillPicture": "visual-studio.svg"
     },
     {
-        "skillName": "GCP",
-        "skillPicture": "gcp.svg"
+        "skillName": "Termux",
+        "skillPicture": "termux.svg"
     },
     {
-        "skillName": "Serverless",
-        "skillPicture": "serverless.svg"
+        "skillName": "Linux",
+        "skillPicture": "linux.svg"
+    },
+    {
+        "skillName": "Android",
+        "skillPicture": "android.svg"
     },
     {
         "skillName": "Figma",
         "skillPicture": "figma.svg"
     },
     {
-        "skillName": "LangChain",
-        "skillPicture": "langchain.svg"
-    },
-    {
-        "skillName": "Adobe Photoshop",
-        "skillPicture": "photoshop.svg"
-    },
-    {
-        "skillName": "Styled Components",
-        "skillPicture": "styledcomponents.svg"
+        "skillName": "Canva",
+        "skillPicture": "canva.svg"
     },
     {
         "skillName": "Chrome DevTools",
@@ -97,31 +96,15 @@
         "skillPicture": "npm.svg"
     },
     {
-        "skillName": "Netlify",
-        "skillPicture": "netlify.svg"
+        "skillName": "Vitepress",
+        "skillPicture": "vitepress.svg"
     },
     {
-        "skillName": "Vercel",
-        "skillPicture": "vercel.svg"
+        "skillName": "Magisk",
+        "skillPicture": "magisk.svg"
     },
     {
-        "skillName": "Replit",
-        "skillPicture": "replit.svg"
-    },
-    {
-        "skillName": "Astro",
-        "skillPicture": "astro.svg"
-    },
-    {
-        "skillName": "Canva",
-        "skillPicture": "canva.svg"
-    },
-    {
-        "skillName": "Streamlit",
-        "skillPicture": "streamlit.svg"
-    },
-    {
-        "skillName": "cPanel",
-        "skillPicture": "cpanel.svg"
+        "skillName": "KernelSU",
+        "skillPicture": "kernelsu.svg"
     }
 ]
