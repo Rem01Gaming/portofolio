@@ -7,8 +7,8 @@ import "../styles/globals.css";
     <head>
         <meta charset="utf-8" />
         <link rel="icon" type="image/webp" href="/favicon.webp" sizes="64x64" />
-		<link rel="icon" type="image/webp" href="/android-chrome.webp" sizes="192x192" />
-		<link rel="apple-touch-icon" type="image/webp" href="/apple-touch-icon.webp" sizes="180x180" />
+        <link rel="icon" type="image/webp" href="/android-chrome.webp" sizes="192x192" />
+        <link rel="apple-touch-icon" type="image/webp" href="/apple-touch-icon.webp" sizes="180x180" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <meta
@@ -37,19 +37,23 @@ import "../styles/globals.css";
         <title>{title}</title>
         <script type="application/ld+json">
             {
-                "@context": "https://schema.org",
+              "@context": "https://schema.org",
+              "@type": "ProfilePage",
+              "dateCreated": "2024-10-20T00:00:00+07:00",
+              "mainEntity": {
                 "@type": "Person",
                 "name": "Rem01Gaming",
-                "url": "https://rem01gaming.dev",
+                "description": "Mobile Developer",
+                "image": "https://rem01gaming.dev/photo.webp",
                 "sameAs": [
-                    "https://github.com/dnachavez",
-                    "https://www.youtube.com/@rem01gaming",
-                    "https://www.tiktok.com/@Rem01Gaming",
-                    "https://www.github.com/Rem01Gaming",
-                    "https://www.t.me/rem01schannel"
+                  "https://www.youtube.com/@rem01gaming",
+                  "https://www.tiktok.com/@Rem01Gaming",
+                  "https://www.github.com/Rem01Gaming",
+                  "https://www.t.me/rem01schannel"
                 ]
+              }
             }
-            </script>
+        </script>
     </head>
     <body class="bg-light-fondo-primary dark:bg-dark-fondo-primary">
         <slot />
