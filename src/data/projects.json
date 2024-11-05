@@ -26,7 +26,7 @@
         "id": "encore-tweaks",
         "carouselImages": ["1.webp", "2.webp"],
         "projectRepo": "https://github.com/Rem01Gaming/encore",
-        "projectSite": "https://rem01gaming.github.io/encore",
+        "projectSite": "https://encore.rem01gaming.dev",
         "projectTitle": "Encore Tweaks",
         "projectSlogan": "Special performance module for youe device",
         "projectDescription": "Encore Tweaks is a Magisk module designed to boost device performance while playing games but keeping battery life on normal usage.",
